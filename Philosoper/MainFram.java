@@ -1,4 +1,4 @@
-package GUI;
+package Philosoper;
 
 // import com.sun.org.apache.xpath.internal.axes.OneStepIterator;
 import java.awt.*;
@@ -167,46 +167,47 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.LEADING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(675, 675, 675)
+                                                                                .addGap(385, 385, 385)
                                                                                 .addComponent(jLabel1,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
                                                                                                 GroupLayout.PREFERRED_SIZE))
                                                                 .addGroup(layout.createSequentialGroup()
                                                                                 .addGap(
-                                                                                                675, 675, 675)
+                                                                                                385, 385, 385)
                                                                                 .addComponent(one,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
-                                                                                                GroupLayout.PREFERRED_SIZE)))
-                                                .addGroup(layout.createSequentialGroup()
-                                                                .addGroup(layout.createParallelGroup(Alignment.LEADING)
-                                                                                .addGroup(layout.createSequentialGroup()
-                                                                                                .addGap(175, 175, 175)
-                                                                                                .addComponent(jLabel2,
-                                                                                                                GroupLayout.PREFERRED_SIZE,
-                                                                                                                GroupLayout.DEFAULT_SIZE,
-                                                                                                                GroupLayout.PREFERRED_SIZE))
-                                                                                .addGroup(layout.createSequentialGroup()
-                                                                                                .addGap(
-                                                                                                                175,
-                                                                                                                175,
-                                                                                                                175)
-                                                                                                .addComponent(two,
-                                                                                                                GroupLayout.PREFERRED_SIZE,
-                                                                                                                GroupLayout.DEFAULT_SIZE,
-                                                                                                                GroupLayout.PREFERRED_SIZE)))))
+                                                                                                GroupLayout.PREFERRED_SIZE))))
+
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.LEADING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(825, 825, 825)
+                                                                                .addGap(600, 600, 600)
+                                                                                .addComponent(jLabel2,
+                                                                                                GroupLayout.PREFERRED_SIZE,
+                                                                                                GroupLayout.DEFAULT_SIZE,
+                                                                                                GroupLayout.PREFERRED_SIZE))
+                                                                .addGroup(layout.createSequentialGroup()
+                                                                                .addGap(
+                                                                                                600,
+                                                                                                600,
+                                                                                                600)
+                                                                                .addComponent(two,
+                                                                                                GroupLayout.PREFERRED_SIZE,
+                                                                                                GroupLayout.DEFAULT_SIZE,
+                                                                                                GroupLayout.PREFERRED_SIZE))))
+                                .addGroup(layout.createSequentialGroup()
+                                                .addGroup(layout.createParallelGroup(Alignment.LEADING)
+                                                                .addGroup(layout.createSequentialGroup()
+                                                                                .addGap(512, 512, 512)
                                                                                 .addComponent(jLabel3,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
                                                                                                 GroupLayout.PREFERRED_SIZE))
                                                                 .addGroup(layout.createSequentialGroup()
                                                                                 .addGap(
-                                                                                                825, 825, 825)
+                                                                                                512, 512, 512)
                                                                                 .addComponent(three,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -214,14 +215,14 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.LEADING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(525, 525, 525)
+                                                                                .addGap(235, 235, 235)
                                                                                 .addComponent(jLabel4,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
                                                                                                 GroupLayout.PREFERRED_SIZE))
                                                                 .addGroup(layout.createSequentialGroup()
                                                                                 .addGap(
-                                                                                                525, 525, 525)
+                                                                                                235, 235, 235)
                                                                                 .addComponent(four,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -229,14 +230,14 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.LEADING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(360, 360, 360)
+                                                                                .addGap(170, 170, 170)
                                                                                 .addComponent(jLabel5,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
                                                                                                 GroupLayout.PREFERRED_SIZE))
                                                                 .addGroup(layout.createSequentialGroup()
                                                                                 .addGap(
-                                                                                                360, 360, 360)
+                                                                                                170, 170, 170)
                                                                                 .addComponent(five,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -297,7 +298,7 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.TRAILING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(1340, 1340, 1340)
+                                                                                .addGap(900, 900, 900)
                                                                                 .addComponent(jLabel9,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -307,7 +308,7 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.TRAILING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(1340, 1340, 1340)
+                                                                                .addGap(900, 900, 900)
                                                                                 .addComponent(jLabel10,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -317,7 +318,7 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.TRAILING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(1340, 1340, 1340)
+                                                                                .addGap(900, 900, 900)
                                                                                 .addComponent(jLabel11,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -327,7 +328,7 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.TRAILING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(1340, 1340, 1340)
+                                                                                .addGap(900, 900, 900)
                                                                                 .addComponent(jLabel12,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -337,7 +338,7 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.TRAILING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(1340, 1340, 1340)
+                                                                                .addGap(900, 900, 900)
                                                                                 .addComponent(jLabel13,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -358,35 +359,35 @@ public class MainFram extends javax.swing.JFrame {
                                                                                 220, 220, 220)
                                                                 .addComponent(one, GroupLayout.PREFERRED_SIZE,
                                                                                 GroupLayout.DEFAULT_SIZE,
-                                                                                GroupLayout.PREFERRED_SIZE)))
-                                                .addGroup(layout.createSequentialGroup()
-                                                                .addGroup(layout.createParallelGroup(Alignment.LEADING)
-                                                                                .addGroup(layout.createSequentialGroup()
-                                                                                                .addGap(30, 30, 30)
-                                                                                                .addComponent(jLabel2,
-                                                                                                                GroupLayout.PREFERRED_SIZE,
-                                                                                                                GroupLayout.DEFAULT_SIZE,
-                                                                                                                GroupLayout.PREFERRED_SIZE))
-                                                                                .addGroup(layout.createSequentialGroup()
-                                                                                                .addGap(
-                                                                                                                206,
-                                                                                                                206,
-                                                                                                                206)
-                                                                                                .addComponent(two,
-                                                                                                                GroupLayout.PREFERRED_SIZE,
-                                                                                                                GroupLayout.DEFAULT_SIZE,
-                                                                                                                GroupLayout.PREFERRED_SIZE)))))
+                                                                                GroupLayout.PREFERRED_SIZE))))
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.LEADING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(575, 575, 575)
+                                                                                .addGap(270, 270, 270)
+                                                                                .addComponent(jLabel2,
+                                                                                                GroupLayout.PREFERRED_SIZE,
+                                                                                                GroupLayout.DEFAULT_SIZE,
+                                                                                                GroupLayout.PREFERRED_SIZE))
+                                                                .addGroup(layout.createSequentialGroup()
+                                                                                .addGap(
+                                                                                                446,
+                                                                                                446,
+                                                                                                446)
+                                                                                .addComponent(two,
+                                                                                                GroupLayout.PREFERRED_SIZE,
+                                                                                                GroupLayout.DEFAULT_SIZE,
+                                                                                                GroupLayout.PREFERRED_SIZE))))
+                                .addGroup(layout.createSequentialGroup()
+                                                .addGroup(layout.createParallelGroup(Alignment.LEADING)
+                                                                .addGroup(layout.createSequentialGroup()
+                                                                                .addGap(545, 545, 545)
                                                                                 .addComponent(jLabel3,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
                                                                                                 GroupLayout.PREFERRED_SIZE))
                                                                 .addGroup(layout.createSequentialGroup()
                                                                                 .addGap(
-                                                                                                751, 751, 751)
+                                                                                                721, 721, 721)
                                                                                 .addComponent(three,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -394,14 +395,14 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.LEADING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(575, 575, 575)
+                                                                                .addGap(545, 545, 545)
                                                                                 .addComponent(jLabel4,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
                                                                                                 GroupLayout.PREFERRED_SIZE))
                                                                 .addGroup(layout.createSequentialGroup()
                                                                                 .addGap(
-                                                                                                751, 751, 751)
+                                                                                                721, 721, 721)
                                                                                 .addComponent(four,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -478,7 +479,7 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.TRAILING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(70, 70, 70)
+                                                                                .addGap(270, 270, 270)
                                                                                 .addComponent(jLabel9,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -489,7 +490,7 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.TRAILING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(90, 90, 90)
+                                                                                .addGap(290, 290, 290)
                                                                                 .addComponent(jLabel10,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -500,7 +501,7 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.TRAILING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(110, 110, 110)
+                                                                                .addGap(210, 210, 210)
                                                                                 .addComponent(jLabel11,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -511,7 +512,7 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.TRAILING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(130, 130, 130)
+                                                                                .addGap(230, 230, 230)
                                                                                 .addComponent(jLabel12,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -522,7 +523,7 @@ public class MainFram extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(Alignment.TRAILING)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                                .addGap(150, 150, 150)
+                                                                                .addGap(250, 250, 250)
                                                                                 .addComponent(jLabel13,
                                                                                                 GroupLayout.PREFERRED_SIZE,
                                                                                                 GroupLayout.DEFAULT_SIZE,
@@ -542,7 +543,7 @@ public class MainFram extends javax.swing.JFrame {
         public final int EATING = 2;
 
         void setPosition(int pos, int status) {
-                if (pos == 0) {
+                if (pos == 600) {
                         if (status == HUNGRY) {
                                 one.setBackground(Color.red);
 

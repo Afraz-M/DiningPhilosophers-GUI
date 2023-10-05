@@ -8,8 +8,6 @@ package Philosoper;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import GUI.MainFram;
-
 import java.util.concurrent.Semaphore;
 
 public class Philosopher extends Thread {
