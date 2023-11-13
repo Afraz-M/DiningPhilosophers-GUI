@@ -102,15 +102,15 @@ public class MainFram extends javax.swing.JFrame {
                 four.setBackground(java.awt.Color.yellow);
                 five.setBackground(java.awt.Color.orange);
 
-                jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p1.jpg")));
+                jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p1T.jpg")));
 
-                jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p2.jpg")));
+                jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p2T.jpg")));
 
-                jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p3.jpg")));
+                jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p3T.jpg")));
 
-                jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p4.jpg")));
+                jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p4T.jpg")));
 
-                jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p5.jpg")));
+                jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p5T.jpg")));
 
                 jPanel1.setBackground(java.awt.Color.yellow);
 
@@ -151,15 +151,15 @@ public class MainFram extends javax.swing.JFrame {
 
                 jLabel8.setText("Thinking");
 
-                jLabel9.setText("Philosopher 1 ate " + p1 + " times ");
+                jLabel9.setText("Philosopher 4 ate " + p4 + " times ");
 
-                jLabel10.setText("Philosopher 2 ate " + p2 + " times ");
+                jLabel10.setText("Philosopher 5 ate " + p5 + " times ");
 
-                jLabel11.setText("Philosopher 3 ate " + p3 + " times ");
+                jLabel11.setText("Philosopher 1 ate " + p1 + " times ");
 
-                jLabel12.setText("Philosopher 4 ate " + p4 + " times ");
+                jLabel12.setText("Philosopher 2 ate " + p2 + " times ");
 
-                jLabel13.setText("Philosopher 5 ate " + p5 + " times ");
+                jLabel13.setText("Philosopher 3 ate " + p3 + " times ");
 
                 javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
                 getContentPane().setLayout(layout);
@@ -532,7 +532,11 @@ public class MainFram extends javax.swing.JFrame {
                                                                                 .addPreferredGap(
                                                                                                 javax.swing.LayoutStyle.ComponentPlacement.RELATED)))));
 
-                pack();
+                setSize(1100, 800);
+
+                Toolkit toolKit = getToolkit();
+		Dimension size = toolKit.getScreenSize();
+		setLocation(size.width/2 - getWidth()/2, size.height/2 - getHeight()/2);
         }// </editor-fold>//GEN-END:initComponents
 
         /**
@@ -543,69 +547,80 @@ public class MainFram extends javax.swing.JFrame {
         public final int EATING = 2;
 
         void setPosition(int pos, int status) {
-                if (pos == 600) {
+                if (pos == 0) {
                         if (status == HUNGRY) {
                                 one.setBackground(Color.red);
+                                jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p1T.jpg")));
 
                         } else if (status == EATING) {
                                 one.setBackground(Color.yellow);
                                 p1 = p1 + 1;
-                                jLabel9.setText("Philosopher 1 ate " + p1 + " times");
+                                jLabel11.setText("Philosopher 1 ate " + p1 + " times");
+                                jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p1E.jpg")));
 
                         } else {
                                 one.setBackground(Color.green);
-
+                                jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p1T.jpg")));
                         }
                 }
 
                 else if (pos == 1) {
                         if (status == HUNGRY) {
                                 two.setBackground(Color.red);
+                                jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p2T.jpg")));
 
                         } else if (status == EATING) {
                                 two.setBackground(Color.yellow);
                                 p2 = p2 + 1;
-                                jLabel10.setText("Philosopher 2 ate " + p2 + " times");
+                                jLabel12.setText("Philosopher 2 ate " + p2 + " times");
+                                jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p2E.jpg")));
                         } else {
                                 two.setBackground(Color.green);
-
+                                jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p2T.jpg")));
                         }
                 } else if (pos == 2) {
                         if (status == HUNGRY) {
                                 three.setBackground(Color.red);
+                                jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p3T.jpg")));
 
                         } else if (status == EATING) {
                                 three.setBackground(Color.yellow);
                                 p3 = p3 + 1;
-                                jLabel11.setText("Philosopher 3 ate " + p3 + " times");
+                                jLabel13.setText("Philosopher 3 ate " + p3 + " times");
+                                jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p3E.jpg")));
                         } else {
                                 three.setBackground(Color.green);
 
+                                jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p3T.jpg")));
                         }
                 } else if (pos == 3) {
                         if (status == HUNGRY) {
                                 four.setBackground(Color.red);
+                                jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p4T.jpg")));
 
                         } else if (status == EATING) {
                                 four.setBackground(Color.yellow);
                                 p4 = p4 + 1;
-                                jLabel12.setText("Philosopher 4 ate " + p4 + " times");
+                                jLabel9.setText("Philosopher 4 ate " + p4 + " times");
+                                jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p4E.jpg")));
                         } else {
                                 four.setBackground(Color.green);
-
+                                jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p4T.jpg")));
                         }
                 } else {
                         if (status == HUNGRY) {
 
                                 five.setBackground(Color.red);
+                                jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p5T.jpg")));
 
                         } else if (status == EATING) {
                                 five.setBackground(Color.yellow);
                                 p5 = p5 + 1;
-                                jLabel13.setText("Philosopher 5 ate " + p5 + " times");
+                                jLabel10.setText("Philosopher 5 ate " + p5 + " times");
+                                jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p5E.jpg")));
                         } else {
                                 five.setBackground(Color.green);
-
+                                jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("../images/p5T.jpg")));
                         }
 
                 }
